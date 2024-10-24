@@ -25,7 +25,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       </Head>
       <body>
         <Header />
-        <main>{children}</main>
+          {children}
         <Footer />
       </body>
     </html>
