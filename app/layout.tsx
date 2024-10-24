@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Head from 'next/head';
 import './globals.css';
+import Chatbot from '../components/Chatbot';
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   const [isClient, setIsClient] = useState(false);
@@ -25,7 +26,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       </Head>
       <body>
         <Header />
-          {children}
+        {children}
+        <Chatbot />
         <Footer />
       </body>
     </html>

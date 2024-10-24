@@ -12,7 +12,6 @@ class MyDocument extends Document {
           <meta name="keywords" content="your, custom, keywords, here" />
           <meta name="author" content="Your Name or Company" />
           <link rel="icon" href="/favicon.ico" />
-          <title>CloudDogg</title>
         </Head>
         <body>
           <Main />
